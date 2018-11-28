@@ -1,0 +1,208 @@
+@media (max-width: 1000px) {
+    .comments {
+        .container {
+            .comments-cont {
+                .slide {
+                    .carousel-inner {
+                        .carousel-item {
+                            padding: 0;
+
+                            .row {
+                                .marg {
+                                    img {
+                                        box-shadow: none !important;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+    .services {
+        .container {
+            .services-cont {
+                .row {
+                    .col:not(.col-lg-5) {
+                        .serv-click {
+                            p {
+                                overflow-y: scroll;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .about_us {
+        .container {
+            .about-content {
+                .about-text {
+                    overflow-y: scroll;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 769px) {
+    body {
+
+        .about_us,
+        .services,
+        .works,
+        .team {
+            .container {
+                padding-top: 50px;
+                padding-bottom: 100px;
+            }
+        }
+
+        .about_us {
+            .container {
+                .about-content {
+                    flex-wrap: wrap;
+
+                    .first-slider {
+                        .slide {
+                            ol {
+                                bottom: -100px;
+                            }
+                        }
+                    }
+
+                    .about-text {
+                        margin-top: 100px;
+                    }
+                }
+            }
+        }
+
+
+
+        .team {
+            .container {
+                .team-cont {
+                    .row {
+                        .col-sm {
+                            .team-hover {
+                                padding: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .comments {
+            .container {
+                .comments-cont {
+                    .slide {
+                        .carousel-inner {
+                            .carousel-item {
+                                .row {
+                                    .marg {
+                                        display: none !important;
+                                    }
+
+                                    .big-slid {
+                                        display: block !important;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 426px) {
+    body {
+        .about_us {
+            .container {
+                .about-content {
+                    .first-slider {
+                        .slide {
+                            .back {
+                                width: 320px;
+                                height: 260px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+
+        .comments {
+            .container {
+                .comments-cont {
+                    .slide {
+                        ol {
+                            bottom: -10px;
+                            transform: translate(-20%, 0);
+                        }
+                    }
+
+                    .navs {
+                        display: none !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 321px) {
+    body {
+        .about_us {
+            .container {
+                .about-content {
+                    .first-slider {
+                        .slide {
+                            .back {
+                                width: 300px;
+                                height: 240px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .works {
+            .container {
+                .work-cont {
+                    .row {
+                        .col-sm:first-child {
+                            background-position-x: -30px;
+                        }
+
+                        .col-sm:nth-child(3) {
+                            background-position-x: -20px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .team {
+            .container {
+                .team-cont {
+                    .row {
+                        .col-sm {
+                            height: 220px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
