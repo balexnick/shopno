@@ -122,6 +122,28 @@
     }
 }
 
+@media(max-width:376px) {
+    body {
+        .comments {
+            .container {
+                .comments-cont {
+                    .slide {
+                        .carousel-inner {
+                            .carousel-item {
+                                .row {
+                                    .big-slid {
+                                        padding: 80px 40px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 426px) {
     body {
         .about_us {
@@ -204,5 +226,24 @@
                 }
             }
         }
+
+        .comments {
+            .container {
+                .comments-cont {
+                    .slide {
+                        .carousel-inner {
+                            .carousel-item {
+                                .row {
+                                    .big-slid {
+                                        padding: 50px 40px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
     }
 }
